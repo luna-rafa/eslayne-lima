@@ -1,0 +1,23 @@
+.landing-page {
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+@media (max-width: 600px) {
+  .landing-page {
+    padding: 14px;
+  }
+
+  .landing-container {
+    gap: 18px;
+  }
+}
